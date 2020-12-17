@@ -52,6 +52,8 @@ print(a.strip()) # 양쪽에 있는 한칸이상의 공백을 모두 지우는 �
 # 문자열을 바꿔주는 함수 replace
 a = "hi my name is jiwon"
 print(a.replace("jiwon", "jiwoo")) # replace(바뀌어지는 문자열, 바꾸고자 하는 문자열)의 형식으로 사용한다. 여기서는 문자열 "jiwon"이 문자열"jiwoo"로 바뀌어, "hi my name is jiwoo"가 반환될 것이다.
+a = "2012-02-12"
+print(a.replace("-", "")) # 모든 "-"을 ""(공백)으로 바꿔준다
 
 # 문자열을 나누어 리스트로 나누어주는 함수 split
 a = "hi my name is jiwon"
