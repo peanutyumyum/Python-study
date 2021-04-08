@@ -75,8 +75,8 @@ print(result)
 
 # **kwargs(딕셔너리를 생성하는 함수)
 """
-**kwargs는 입력한 인수를 딕셔너리로 생성해 결과값으로 반환하는 하게 한다
-딕셔너리의 key는 매개변수가 되고, value는 입력한 인수가 된다
+**kwargs는 입력한 인수를 딕셔너리로 생성해준다
+매개변수에 key1 = value1, key2 = value2의 꼴로 해주어야한다
 kwargs는 keyword arguments의 약자이고 관례적으로 사용된다
 """
 def print_kwargs(**kwargs):
